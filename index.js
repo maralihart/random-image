@@ -16,7 +16,7 @@ function generateImage() {
     console.log(imgName)
 
     var imgSRC = "./assets/" + aOrF + "/" + imgName;
-    console.log(image.src)
+    console.log(imgSRC)
 
     image.empty()
     image.append(`<img src=${imgSRC}>`)
